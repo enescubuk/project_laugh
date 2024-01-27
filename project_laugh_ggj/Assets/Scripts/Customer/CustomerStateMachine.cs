@@ -8,7 +8,7 @@ public class CustomerStateMachine : MonoBehaviour
     public static CustomerStateMachine Instance;
 
     public bool IsCustomerSellable;
-    public GameObject GaveGift;
+    [HideInInspector]public GameObject GaveGift;
     [HideInInspector]public GameObject CustomerGameObject;
 
     private void Awake()

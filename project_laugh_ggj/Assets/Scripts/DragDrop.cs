@@ -56,7 +56,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         }
         else
         {
-            rectTransform.anchoredPosition = originalPosition;
+            rectTransform.DOAnchorPos(originalPosition, 0.5f);
         }
     }
 }
