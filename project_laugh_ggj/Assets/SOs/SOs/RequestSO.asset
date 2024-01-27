@@ -259,7 +259,7 @@ MonoBehaviour:
     - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
     - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: Last week, my girlfriend left me for a silly reason. It seems I'm
-      not strong enough for him.
+      not strong enough for her.
     PositiveGifts:
     - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
     - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
