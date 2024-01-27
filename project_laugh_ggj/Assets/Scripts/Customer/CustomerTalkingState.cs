@@ -9,7 +9,7 @@ public class CustomerTalkingState : IStateCommand
     public override void Enter()
     {
         SpeechBallonn.SetActive(true);
-        // SpeechBallonn.GetComponentInChildren<TMP_Text>().text = GameManager.Instance.RequestSO.Requests[Random.Range(0, GameManager.Instance.RequestSO.Requests.Length)].RequestText;
+        SpeechBallonn.GetComponentInChildren<TMP_Text>().text = GameManager.Instance.RequestSO.Requests[Random.Range(0, GameManager.Instance.RequestSO.Requests.Length)].RequestText;
     }
 
     public override void Tick()
