@@ -16,103 +16,483 @@ MonoBehaviour:
   - RequestText: "Last week, everything went wrong for me! My wife and I were walking
       when we got attacked by a group of dogs, and I lost my wife. Then, at my wife\u2019s
       funeral, I saw a different group of dogs urinating on the grave. "
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    NeutralGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    NegativeGifts:
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: 'I spent the whole night crying in bed yesterday. I don''t know
       why, but I don''t want to talk to my boyfriend. I''m waiting for him to make
       things right, even though he wasn''t the one who upset me. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
   - RequestText: 'A disaster happened to me last month, but now there''s more news!
       My husband, who''s a ship captain, cheated on me last week! '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    NeutralGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
   - RequestText: ' A big meteor fell on my vineyard outside the city. The authorities
       took the meteor, but my field got ruined. Since I couldn''t harvest the grapes,
       my wine business is struggling, and I''m almost bankrupt! '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    NeutralGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
   - RequestText: 'Someone foolishly crashed into my car, and it turned to ashes.
       How can I cover the damage? '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NeutralGifts:
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    NegativeGifts:
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
   - RequestText: 'Recently, there was an electrical issue in my house, and after
       fixing it, everything burned down due to another problem! '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    NegativeGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
   - RequestText: 'Last year, there was a war in my country and my city got bombed.
       I lost my family and kids. I sought refuge in this country, but I haven''t
       smiled for a year. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NeutralGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
   - RequestText: 'My dad is a bear trainer and gets along well with bears. But he
       hates his job and often curses the bears. I need to bring him a gift to cheer
       him up. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
   - RequestText: 'Last month, I accidentally dropped the vase with my grandma''s
       ashes, and I feel guilty even though my family hasn''t noticed. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    NeutralGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: The other day, my country faced a terrible forest fire. My field
       turned to ashes, and I had to start over.
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NegativeGifts:
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: Last week, my girlfriend left me for a silly reason. It seems I'm
       not strong enough for him.
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
   - RequestText: They make fun of my weight at school!
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    NeutralGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
   - RequestText: 'I lost my bird two days ago. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    NeutralGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NegativeGifts:
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
   - RequestText: 'Five days ago, there was construction in my neighborhood. They
       finished, and I thought I could move around freely. But I fell down a manhole
       and got covered in sewage. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: 'The other day, my computer suddenly broke, and when I went to fix
       it, I found out the RAM had been stolen! '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    NeutralGifts:
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    NegativeGifts:
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
   - RequestText: 'I''ve been living in a wooden house for years, and yesterday, a
       giant bedbug destroyed the beautiful ceiling! '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    NeutralGifts:
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    NegativeGifts:
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
   - RequestText: 'The other day, I wasn''t allowed into a mall, and after being kicked
       out, the security guards said I was very handsome. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    NeutralGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
   - RequestText: 'Last night, I came home to find the stove on, and my wife unconscious
       in bed. I had to rush her to the hospital. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NeutralGifts:
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    NegativeGifts:
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
   - RequestText: 'My relationship is always up and down, and I can''t find a solution. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    NeutralGifts:
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    NegativeGifts:
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
   - RequestText: 'Last night, my house inexplicably flooded, and my fish and I ended
       up swimming together. '
-    PositiveGifts: []
-    NeutralGifts: []
-    NegativeGifts: []
+    PositiveGifts:
+    - {fileID: 8730110652033352126, guid: a8ed740a3a9c2c4469c8060b354459b2, type: 3}
+    - {fileID: 3847297302459104619, guid: dd7e5516d57c2c448b95d9b2d6bfa3ca, type: 3}
+    - {fileID: 3505216053004124015, guid: e67277878ae39a24186cdfb89551fd8d, type: 3}
+    - {fileID: 4462272610238213338, guid: 925de41411a0dae4bb36ea50a28542ce, type: 3}
+    - {fileID: 5858250150375697177, guid: 8d8b4052849682b40a15fa2f5a68de63, type: 3}
+    - {fileID: 1909506977213870848, guid: 502fdbc8f6c9aa0429043c07945923e3, type: 3}
+    - {fileID: 3337609177829949507, guid: bd900dcb8c07f514b9c745755efc0ea9, type: 3}
+    NeutralGifts:
+    - {fileID: 1383477133924417513, guid: aacd5e350666f4e4791654baf5648faf, type: 3}
+    - {fileID: 2957520160130288536, guid: 6c1ed05a3903c424baaf4c56eece42fb, type: 3}
+    - {fileID: 4257606901140195847, guid: 986066bd6484226408198cb075a04e91, type: 3}
+    - {fileID: 6459445458515753177, guid: dd075022e8fb80d4c831d431a034243a, type: 3}
+    - {fileID: 178340403384719682, guid: 22124aa61a389454cb6c7a2df7cf7da1, type: 3}
+    - {fileID: 7233406112692446177, guid: efb128ea037cdbf438d1a26d745071a0, type: 3}
+    - {fileID: 1901758829133025412, guid: e0c363184035aae4ca6216b30d9ea710, type: 3}
+    - {fileID: 5152604241625331350, guid: 194fe40dff1613a4a96210ba952718a5, type: 3}
+    NegativeGifts:
+    - {fileID: 5880765844733818739, guid: dec6417c1b7232541a88368576f8f07a, type: 3}
+    - {fileID: 6875793770059760033, guid: 65cc0ee7e4c30c64e99f264ec15eb0d1, type: 3}
+    - {fileID: 2916803957145704100, guid: 4331fb53b65a4fa428f4b38183e99f8a, type: 3}
+    - {fileID: 3377012623450673544, guid: d81ef5efe6a19c4448e7e55467763be6, type: 3}
