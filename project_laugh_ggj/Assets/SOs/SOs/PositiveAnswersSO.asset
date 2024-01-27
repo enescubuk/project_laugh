@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6bf723ba14c25041b2704b1224459b6, type: 3}
   m_Name: PositiveAnswersSO
   m_EditorClassIdentifier: 
-  AnswerText: []
+  AnswerText:
+  - "Hayat\u0131mda g\xF6rd\xFC\u011F\xFCm en komik \u015Feydi!"
+  - "G\xFClmekten alt\u0131ma s\u0131\xE7t\u0131m! "
+  - "Bu ger\xE7ekten inan\u0131lmaz bir espriydi! "
+  - "Ben g\xFCld\xFCm allah da seni g\xFCld\xFCrs\xFCn! "
+  - "Patlad\u0131m! "

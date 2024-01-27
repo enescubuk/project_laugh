@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6bf723ba14c25041b2704b1224459b6, type: 3}
   m_Name: NegativeAnswersSO
   m_EditorClassIdentifier: 
-  AnswerText: []
+  AnswerText:
+  - 'Berbat bir espriydi '
+  - "Buraya geldi\u011Fime lanet olsun "
+  - 'Senden nefret ediyorum. '
+  - 'allah seni kahretsin '
+  - "Burda ne bulmay\u0131 bekliyordum ki "
