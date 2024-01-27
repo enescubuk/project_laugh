@@ -7,20 +7,23 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 {
     private Canvas canvas;
     private RectTransform rectTransform;
+    private Vector2 originalPosition;
+
+    public RectTransform dropZone;
 
     void OnEnable()
     {
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
+        originalPosition = rectTransform.anchoredPosition;
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        originalPosition = rectTransform.anchoredPosition;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -30,6 +33,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        
+        if (RectTransformUtility.RectangleContainsScreenPoint(dropZone, eventData.position, eventData.pressEventCamera))
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            rectTransform.anchoredPosition = originalPosition;
+        }
     }
 }
