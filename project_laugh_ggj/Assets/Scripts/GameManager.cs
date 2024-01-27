@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public AnswersSO NeutralAnswersSO;
     public AnswersSO NegativeAnswersSO;
 
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

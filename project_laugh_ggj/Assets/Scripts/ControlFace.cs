@@ -8,6 +8,10 @@ public class ControlFace : MonoBehaviour
     public GameObject NeutralFace;
     public GameObject SadFace;
 
+    public AudioClip[] HappySounds;
+    public AudioClip[] NeutralSounds;
+    public AudioClip[] SadSounds;
+
     void OnEnable()
     {
         Neutral();

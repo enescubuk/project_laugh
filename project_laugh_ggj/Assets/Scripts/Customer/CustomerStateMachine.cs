@@ -10,6 +10,7 @@ public class CustomerStateMachine : MonoBehaviour
     public bool IsCustomerSellable;
     [HideInInspector]public GameObject GaveGift;
     [HideInInspector]public GameObject CustomerGameObject;
+    
 
     private void Awake()
     {

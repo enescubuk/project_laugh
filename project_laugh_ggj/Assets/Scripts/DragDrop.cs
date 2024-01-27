@@ -12,6 +12,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public RectTransform dropZone;
 
+    public AudioClip DropSound;
+
     void OnEnable()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -40,18 +42,16 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (CustomerStateMachine.Instance.IsCustomerSellable)
-        {
-            rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        }
+        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (RectTransformUtility.RectangleContainsScreenPoint(dropZone, eventData.position, eventData.pressEventCamera))
+        if (RectTransformUtility.RectangleContainsScreenPoint(dropZone, eventData.position, eventData.pressEventCamera)&&CustomerStateMachine.Instance.IsCustomerSellable)
         {
             CustomerStateMachine.Instance.GaveGift = gameObject;
             gameObject.SetActive(false);
+            GetComponentInParent<AudioSource>().Play();
             CustomerStateMachine.Instance.ChangeState<CustomerReactionState>();
         }
         else
