@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +9,6 @@ public class Timer : MonoBehaviour
     bool timerOn = false;
     public bool dayEnd;
 
-    [SerializeField] TMP_Text timerText;
 
     private void Start()
     {
@@ -40,9 +38,6 @@ public class Timer : MonoBehaviour
     {
         float minutes = Mathf.FloorToInt(currentTime / 60);
         float seconds = Mathf.FloorToInt(currentTime % 60);
-
-        timerText.text = string.Format("{0:00} : {1:00}", minutes, seconds);
-       
     }
 
 }
