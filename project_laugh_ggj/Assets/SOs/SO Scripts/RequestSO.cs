@@ -11,8 +11,9 @@ public class RequestSO : ScriptableObject
 [System.Serializable]
 public class Request
 {
+    [TextArea]
     public string RequestText;
-    public GameObject[] PositiveGifts;
-    public GameObject[] NeutralGifts;
-    public GameObject[] NegativeGifts;
+    public List<GameObject> PositiveGifts;
+    public List<GameObject> NeutralGifts;
+    public List<GameObject> NegativeGifts;
 }

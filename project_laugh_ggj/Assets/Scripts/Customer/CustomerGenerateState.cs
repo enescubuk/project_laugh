@@ -9,6 +9,7 @@ public class CustomerGenerateState : IStateCommand
     {
         Debug.Log("CustomerGenerateState");
         CustomerStateMachine.Instance.CustomerGameObject = Instantiate(CustomerPrefab, SpawnPoint.position, Quaternion.identity,transform);
+        CustomerStateMachine.Instance.IsCustomerSellable = false;
     }
 
     

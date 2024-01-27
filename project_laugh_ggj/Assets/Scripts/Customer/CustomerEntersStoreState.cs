@@ -23,11 +23,18 @@ public class CustomerEntersStoreState : IStateCommand
 
     private void SetText()
     {
-        CustomerNameText.text          = GameManager.Instance.CharacterDataSO.Name[Random.Range(0, GameManager.Instance.CharacterDataSO.Name.Length)];
-        CustomerPositiveTraitText.text = GameManager.Instance.CharacterDataSO.PositiveTrait[Random.Range(0, GameManager.Instance.CharacterDataSO.PositiveTrait.Length)]; 
-        CustomerNegativeTraitText.text = GameManager.Instance.CharacterDataSO.NegativeTrait[Random.Range(0, GameManager.Instance.CharacterDataSO.NegativeTrait.Length)];
+        CustomerNameText.text          = GameManager.Instance.CharacterDataSO.Name[Random.Range(0, GameManager.Instance.CharacterDataSO.Name.Count)];
+        CustomerPositiveTraitText.text = GameManager.Instance.CharacterDataSO.PositiveTrait[Random.Range(0, GameManager.Instance.CharacterDataSO.PositiveTrait.Count)]; 
+        CustomerNegativeTraitText.text = GameManager.Instance.CharacterDataSO.NegativeTrait[Random.Range(0, GameManager.Instance.CharacterDataSO.NegativeTrait.Count)];
         Exit();
     }   
+
+    public void DoNullText()
+    {
+        CustomerNameText.text          = null;
+        CustomerPositiveTraitText.text = null; 
+        CustomerNegativeTraitText.text = null;
+    }
 
     public override void Tick()
     {
@@ -36,6 +43,7 @@ public class CustomerEntersStoreState : IStateCommand
 
     public override void Exit()
     {
+        CustomerStateMachine.Instance.IsCustomerSellable = true;
         CustomerStateMachine.Instance.ChangeState<CustomerTalkingState>();
     }
 }
