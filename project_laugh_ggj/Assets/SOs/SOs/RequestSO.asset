@@ -13,7 +13,106 @@ MonoBehaviour:
   m_Name: RequestSO
   m_EditorClassIdentifier: 
   Requests:
-  - RequestText: "yt\xFCn\xFCn interneti k\xF6t\xFC oldu\u011Fu i\xE7in lol oynayam\u0131yorum"
+  - RequestText: "Last week, everything went wrong for me! My wife and I were walking
+      when we got attacked by a group of dogs, and I lost my wife. Then, at my wife\u2019s
+      funeral, I saw a different group of dogs urinating on the grave. "
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'I spent the whole night crying in bed yesterday. I don''t know
+      why, but I don''t want to talk to my boyfriend. I''m waiting for him to make
+      things right, even though he wasn''t the one who upset me. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'A disaster happened to me last month, but now there''s more news!
+      My husband, who''s a ship captain, cheated on me last week! '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: ' A big meteor fell on my vineyard outside the city. The authorities
+      took the meteor, but my field got ruined. Since I couldn''t harvest the grapes,
+      my wine business is struggling, and I''m almost bankrupt! '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Someone foolishly crashed into my car, and it turned to ashes.
+      How can I cover the damage? '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Recently, there was an electrical issue in my house, and after
+      fixing it, everything burned down due to another problem! '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Last year, there was a war in my country and my city got bombed.
+      I lost my family and kids. I sought refuge in this country, but I haven''t
+      smiled for a year. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'My dad is a bear trainer and gets along well with bears. But he
+      hates his job and often curses the bears. I need to bring him a gift to cheer
+      him up. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Last month, I accidentally dropped the vase with my grandma''s
+      ashes, and I feel guilty even though my family hasn''t noticed. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: The other day, my country faced a terrible forest fire. My field
+      turned to ashes, and I had to start over.
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: Last week, my girlfriend left me for a silly reason. It seems I'm
+      not strong enough for him.
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: They make fun of my weight at school!
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'I lost my bird two days ago. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Five days ago, there was construction in my neighborhood. They
+      finished, and I thought I could move around freely. But I fell down a manhole
+      and got covered in sewage. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'The other day, my computer suddenly broke, and when I went to fix
+      it, I found out the RAM had been stolen! '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'I''ve been living in a wooden house for years, and yesterday, a
+      giant bedbug destroyed the beautiful ceiling! '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'The other day, I wasn''t allowed into a mall, and after being kicked
+      out, the security guards said I was very handsome. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Last night, I came home to find the stove on, and my wife unconscious
+      in bed. I had to rush her to the hospital. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'My relationship is always up and down, and I can''t find a solution. '
+    PositiveGifts: []
+    NeutralGifts: []
+    NegativeGifts: []
+  - RequestText: 'Last night, my house inexplicably flooded, and my fish and I ended
+      up swimming together. '
     PositiveGifts: []
     NeutralGifts: []
     NegativeGifts: []
