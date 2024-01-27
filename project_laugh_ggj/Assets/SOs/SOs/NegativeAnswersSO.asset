@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: NegativeAnswersSO
   m_EditorClassIdentifier: 
   AnswerText:
-  - 'Berbat bir espriydi '
-  - "Buraya geldi\u011Fime lanet olsun "
-  - 'Senden nefret ediyorum. '
-  - 'allah seni kahretsin '
-  - "Burda ne bulmay\u0131 bekliyordum ki "
+  - That was a terrible joke.
+  - Damn the day I came here.
+  - I hate you.
+  - May God damn you
+  - What did I expect to find here?
+  - 'Is that the best you''ve got?:'
+  - Awkward...
+  - I don't get it

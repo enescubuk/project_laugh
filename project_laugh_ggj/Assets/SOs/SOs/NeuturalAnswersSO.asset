@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: NeuturalAnswersSO
   m_EditorClassIdentifier: 
   AnswerText:
-  - 'Bundan ne anlamam gerekiyor? '
-  - 'Peki '
-  - "G\xFCzel "
-  - "Anlad\u0131m "
-  - "Te\u015Fekk\xFCrler"
-  - "\u0130dare eder. "
+  - I have no idea about this.
+  - Okay.
+  - Good.
+  - Understood.
+  - Thanks.
+  - Avarage.
+  - It could be better.

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: PositiveAnswersSO
   m_EditorClassIdentifier: 
   AnswerText:
-  - "Hayat\u0131mda g\xF6rd\xFC\u011F\xFCm en komik \u015Feydi!"
-  - "G\xFClmekten alt\u0131ma s\u0131\xE7t\u0131m! "
-  - "Bu ger\xE7ekten inan\u0131lmaz bir espriydi! "
-  - "Ben g\xFCld\xFCm allah da seni g\xFCld\xFCrs\xFCn! "
-  - "Patlad\u0131m! "
+  - That was the funniest thing I've ever seen!
+  - I laughed so hard I almost peed!
+  - 'That was truly an amazing joke! '
+  - I laughed, may God make you laugh too!
+  - Burst into laughter
+  - I can't stop laughing!
+  - That's funny!
