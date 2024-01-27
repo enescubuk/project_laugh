@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
 
     public CharacterDataSO CharacterDataSO;
     public RequestSO RequestSO;
+    public AnswersSO PositiveAnswersSO;
+    public AnswersSO NeutralAnswersSO;
+    public AnswersSO NegativeAnswersSO;
 
     private void Awake()
     {

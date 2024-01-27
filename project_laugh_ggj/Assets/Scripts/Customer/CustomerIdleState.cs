@@ -15,7 +15,6 @@ public class CustomerIdleState : IStateCommand
     {
         
     }
-
     private void OtherExit()
     {
         CustomerStateMachine.Instance.ChangeState<CustomerTalkingState>();
@@ -23,6 +22,7 @@ public class CustomerIdleState : IStateCommand
 
     public override void Exit()
     {
+        CustomerStateMachine.Instance.IsCustomerSellable = false;
         CustomerStateMachine.Instance.ChangeState<CustomerReactionState>();
     }
 }

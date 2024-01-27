@@ -6,6 +6,9 @@ public class CustomerStateMachine : MonoBehaviour
     public IStateCommand CurrentState;
     private bool InTransition;
     public static CustomerStateMachine Instance;
+
+    public bool IsCustomerSellable;
+    public GameObject GaveGift;
     [HideInInspector]public GameObject CustomerGameObject;
 
     private void Awake()
