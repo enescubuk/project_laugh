@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d169e00147084d34fbda7b905f99db40, type: 3}
+  m_Name: CharacterDataSO
+  m_EditorClassIdentifier: 
+  CharacterInfo:
+  - Name: Enes
+    PositiveTrait: "\xE7ay\u0131 \u015Fekersiz i\xE7iyor"
+    NegativeTrait: "Sigara i\xE7iyor"
+  - Name: Kadir
+    PositiveTrait: "i\u015Fine gelince code master"
+    NegativeTrait: "3d game design yapam\u0131yor"
+  - Name: Berna
+    PositiveTrait: "\xC7izim yap\u0131yor"
+    NegativeTrait: Gay
