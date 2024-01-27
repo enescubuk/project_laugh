@@ -5,14 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharacterDataSO", menuName = "SOs/CharacterDataSO")]
 public class CharacterDataSO : ScriptableObject
 {
-    public CharacterInfo[] CharacterInfo;
+    public string[] Name;
+    public string[] PositiveTrait;
+    public string[] NegativeTrait;
 }
 
-[System.Serializable]
-public class CharacterInfo
-{
-    public string Name;
-    public string PositiveTrait;
-    public string NegativeTrait;
-
-}

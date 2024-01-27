@@ -23,9 +23,9 @@ public class CustomerEntersStoreState : IStateCommand
 
     private void SetText()
     {
-        CustomerNameText.text          = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].Name;
-        CustomerPositiveTraitText.text = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].PositiveTrait;
-        CustomerNegativeTraitText.text = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].NegativeTrait;
+        // CustomerNameText.text          = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].Name;
+        // CustomerPositiveTraitText.text = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].PositiveTrait;
+        // CustomerNegativeTraitText.text = GameManager.Instance.CharacterDataSO.CharacterInfo[Random.Range(0, GameManager.Instance.CharacterDataSO.CharacterInfo.Length)].NegativeTrait;
         Exit();
     }   
 
