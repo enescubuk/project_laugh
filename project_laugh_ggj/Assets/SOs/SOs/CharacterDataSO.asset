@@ -12,13 +12,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d169e00147084d34fbda7b905f99db40, type: 3}
   m_Name: CharacterDataSO
   m_EditorClassIdentifier: 
-  CharacterInfo:
-  - Name: Enes
-    PositiveTrait: "\xE7ay\u0131 \u015Fekersiz i\xE7iyor"
-    NegativeTrait: "Sigara i\xE7iyor"
-  - Name: Kadir
-    PositiveTrait: "i\u015Fine gelince code master"
-    NegativeTrait: "3d game design yapam\u0131yor"
-  - Name: Berna
-    PositiveTrait: "\xC7izim yap\u0131yor"
-    NegativeTrait: Gay
+  Name:
+  - Donald
+  - Ronaldo
+  - Kim
+  - Omar
+  - Hasan
+  - Emilly
+  - Julia
+  - Angel
+  - Jana
+  - Yuri
+  - Fatma
+  - River
+  - Abby
+  - Deer
+  - Sergio
+  PositiveTrait:
+  - Loves dogs
+  - Loves cats
+  - Absolutely loves eating pasta
+  - Wears sweaters knitted by his/her mother
+  - Has never sworn before
+  - Never skips school
+  - Offers a seat to the elderly on the bus
+  - Has never spent $500 at a gambling table
+  - Begs friends who smoke to quit
+  - Works as a lifeguard in the summers
+  - Asks cashiers how their day has been
+  - Can untangle knots
+  - Prefers plain soda.
+  NegativeTrait:
+  - 'Leaves the bathroom without washing hands. '
+  - Uses headphones that leak sound in public transportation.
+  - Forgets to turn off lights.
+  - Urinate outside the toilet.
+  - Likes olives.
+  - Doesn't wait in line
+  - Goes into pools without showering.
+  - Spits while talking.
+  - Spits on the ground.
+  - Wears a T-shirt in winter.
+  - Doesn't close doors.
+  - Calls his son without explaining why.
+  - Reminds the teacher about the homework.
+  - Puts two sugars in tea
