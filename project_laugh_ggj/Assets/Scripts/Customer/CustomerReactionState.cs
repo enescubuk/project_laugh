@@ -47,6 +47,7 @@ public class CustomerReactionState : IStateCommand
             {
                 answerText = GameManager.Instance.NegativeAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.NegativeAnswersSO.AnswerText.Count)];
                 CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Sad();
+                CustomerStateMachine.Instance.SoundFeedBack(SadSounds[Random.Range(0, SadSounds.Length)]);
                 GameManager.Instance.AddMoney(Random.Range(1,4));
                 break;
             }

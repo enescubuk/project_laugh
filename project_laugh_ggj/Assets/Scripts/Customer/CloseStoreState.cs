@@ -20,6 +20,7 @@ public class CloseStoreState : IStateCommand
 
     public override void Exit()
     {
+        GetComponent<CustomerGoesOutState>().Clock.GetComponent<ClockModifier>().Start();
         StorePage.SetActive(false);
         InventorySystem.ActiveItem();
         CustomerStateMachine.Instance.ChangeState<CustomerGenerateState>();
