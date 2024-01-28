@@ -7,6 +7,10 @@ public class CustomerReactionState : IStateCommand
     private string answerText;
     public float ReactionDuration = 2f;
 
+    public AudioClip[] HappySounds;
+    public AudioClip[] NeutralSounds;
+    public AudioClip[] SadSounds;
+
     
     public override void Enter()
     {
@@ -28,6 +32,7 @@ public class CustomerReactionState : IStateCommand
             {
                 answerText = GameManager.Instance.PositiveAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.PositiveAnswersSO.AnswerText.Count)];
                 CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Happy();
+                CustomerStateMachine.Instance.SoundFeedBack(HappySounds[Random.Range(0, HappySounds.Length)]);
                 break;
             }
             else if (GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts.Count > i&& GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
@@ -48,6 +53,8 @@ public class CustomerReactionState : IStateCommand
             }
         }
     }
+
+    
 
     public override void Tick()
     {

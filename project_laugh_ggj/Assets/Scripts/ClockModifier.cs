@@ -23,7 +23,6 @@ private IEnumerator CountdownTime()
 {
     while (_currentTime >= 0)
     {
-        Debug.Log(Mathf.Lerp(0, -180, 1 - _time.fillAmount));  // Log çıktısını da 0 ile -180 derece arasına göre ayarladım.
         _time.fillAmount = Mathf.InverseLerp(0, _duration, _currentTime);
 
         // Zaman tamamken (fillAmount = 1) handler 0 derecede olacak ve zaman azaldıkça (fillAmount azaldıkça) -180 dereceye doğru dönecek.

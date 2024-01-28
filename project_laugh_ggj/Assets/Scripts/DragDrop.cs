@@ -12,7 +12,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public RectTransform dropZone;
 
-    public AudioClip DropSound;
+    public AudioClip ClickSound;
+
 
     void OnEnable()
     {
@@ -33,6 +34,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnPointerDown");
+        CustomerStateMachine.Instance.SoundFeedBack(ClickSound);
     }
 
     public void OnBeginDrag(PointerEventData eventData)

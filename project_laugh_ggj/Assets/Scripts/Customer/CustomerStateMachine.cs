@@ -24,6 +24,12 @@ public class CustomerStateMachine : MonoBehaviour
         }
     }
 
+    public void SoundFeedBack(AudioClip _audioClip)
+    {
+        GetComponent<AudioSource>().clip = _audioClip;
+        GetComponent<AudioSource>().Play();
+    }
+
     private void Start() 
     {// Oyun başladığında varsayılan durumu ayarlamak için kullanılır.
         InititeNewState(GetComponent<CustomerGenerateState>());

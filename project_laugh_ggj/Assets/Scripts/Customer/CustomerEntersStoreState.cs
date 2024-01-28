@@ -8,10 +8,12 @@ public class CustomerEntersStoreState : IStateCommand
     public TMP_Text CustomerNameText;
     public TMP_Text CustomerPositiveTraitText;
     public TMP_Text CustomerNegativeTraitText;
+    public AudioClip DoorOpenSound;
 
     public override void Enter()
     {
         Debug.Log("CustomerEntersStoreState");
+        CustomerStateMachine.Instance.SoundFeedBack(DoorOpenSound);
         CustomerStateMachine.Instance.CustomerGameObject.transform.DOMoveX(2, 2.125f)
         .SetEase(Ease.Linear)
         .OnComplete(() => 
