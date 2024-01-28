@@ -33,29 +33,25 @@ public class CustomerReactionState : IStateCommand
                 answerText = GameManager.Instance.PositiveAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.PositiveAnswersSO.AnswerText.Count)];
                 CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Happy();
                 CustomerStateMachine.Instance.SoundFeedBack(HappySounds[Random.Range(0, HappySounds.Length)]);
+                GameManager.Instance.AddMoney(Random.Range(8,11));
                 break;
             }
             else if (GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts.Count > i&& GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
             {
                 answerText = GameManager.Instance.NeutralAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.NeutralAnswersSO.AnswerText.Count)];
                 CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Neutral();
+                GameManager.Instance.AddMoney(Random.Range(4,8));
                 break;
             }
             else if (GameManager.Instance.RequestSO.Requests[RequestIndex].NegativeGifts.Count > i&& GameManager.Instance.RequestSO.Requests[RequestIndex].NegativeGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
             {
                 answerText = GameManager.Instance.NegativeAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.NegativeAnswersSO.AnswerText.Count)];
                 CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Sad();
+                GameManager.Instance.AddMoney(Random.Range(1,4));
                 break;
-            }
-            else
-            {
-                Debug.Log("No Gift");
             }
         }
     }
-
-    
-
     public override void Tick()
     {
     }
