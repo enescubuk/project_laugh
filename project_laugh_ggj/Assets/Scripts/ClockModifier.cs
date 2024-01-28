@@ -11,7 +11,7 @@ public class ClockModifier : MonoBehaviour
 {
     [SerializeField] private Image _time;
     [SerializeField] private GameObject handler;
-    private float _currentTime;
+    public float _currentTime;
     [SerializeField] private float _duration;
     void Start()
     {

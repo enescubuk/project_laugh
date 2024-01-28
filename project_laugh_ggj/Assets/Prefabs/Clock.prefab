@@ -211,4 +211,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _time: {fileID: 3864535624245118091}
   handler: {fileID: 6154944462627387096}
-  _duration: 60
+  _currentTime: 0
+  _duration: 5
