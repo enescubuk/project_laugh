@@ -213,7 +213,7 @@ MonoBehaviour:
   _time: {fileID: 3864535624245118091}
   handler: {fileID: 6154944462627387096}
   _currentTime: 0
-  _duration: 5
+  _duration: 15
   TickTockSound: {fileID: 8300000, guid: d22e76fc0266c474483f9021e29af835, type: 3}
   TimeOutSound: {fileID: 8300000, guid: 6bd722f3550f7aa43a063063bfedf0ec, type: 3}
 --- !u!82 &7795782273708117840
