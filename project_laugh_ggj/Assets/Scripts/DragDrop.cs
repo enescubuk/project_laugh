@@ -12,6 +12,9 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public RectTransform dropZone;
 
+    public AudioClip ClickSound;
+
+
     void OnEnable()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -31,6 +34,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnPointerDown");
+        CustomerStateMachine.Instance.SoundFeedBack(ClickSound);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -40,23 +44,21 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (CustomerStateMachine.Instance.IsCustomerSellable)
-        {
-            rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        }
+        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (RectTransformUtility.RectangleContainsScreenPoint(dropZone, eventData.position, eventData.pressEventCamera))
+        if (RectTransformUtility.RectangleContainsScreenPoint(dropZone, eventData.position, eventData.pressEventCamera)&&CustomerStateMachine.Instance.IsCustomerSellable)
         {
             CustomerStateMachine.Instance.GaveGift = gameObject;
             gameObject.SetActive(false);
+            GetComponentInParent<AudioSource>().Play();
             CustomerStateMachine.Instance.ChangeState<CustomerReactionState>();
         }
         else
         {
-            rectTransform.anchoredPosition = originalPosition;
+            rectTransform.DOAnchorPos(originalPosition, 0.5f);
         }
     }
 }

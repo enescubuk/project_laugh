@@ -8,8 +8,9 @@ public class CustomerStateMachine : MonoBehaviour
     public static CustomerStateMachine Instance;
 
     public bool IsCustomerSellable;
-    public GameObject GaveGift;
+    [HideInInspector]public GameObject GaveGift;
     [HideInInspector]public GameObject CustomerGameObject;
+    
 
     private void Awake()
     {
@@ -21,6 +22,12 @@ public class CustomerStateMachine : MonoBehaviour
         {
             Destroy(gameObject); // Bu, mevcut olmayan bir örneği yok eder.
         }
+    }
+
+    public void SoundFeedBack(AudioClip _audioClip)
+    {
+        GetComponent<AudioSource>().clip = _audioClip;
+        GetComponent<AudioSource>().Play();
     }
 
     private void Start() 

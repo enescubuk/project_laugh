@@ -6,6 +6,12 @@ public class CustomerReactionState : IStateCommand
     private int RequestIndex;
     private string answerText;
     public float ReactionDuration = 2f;
+
+    public AudioClip[] HappySounds;
+    public AudioClip[] NeutralSounds;
+    public AudioClip[] SadSounds;
+
+    
     public override void Enter()
     {
         speechBallonn = GetComponent<CustomerTalkingState>().SpeechBallonn;
@@ -25,16 +31,20 @@ public class CustomerReactionState : IStateCommand
             if (GameManager.Instance.RequestSO.Requests[RequestIndex].PositiveGifts.Count > i && GameManager.Instance.RequestSO.Requests[RequestIndex].PositiveGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
             {
                 answerText = GameManager.Instance.PositiveAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.PositiveAnswersSO.AnswerText.Count)];
+                CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Happy();
+                CustomerStateMachine.Instance.SoundFeedBack(HappySounds[Random.Range(0, HappySounds.Length)]);
                 break;
             }
             else if (GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts.Count > i&& GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
             {
                 answerText = GameManager.Instance.NeutralAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.NeutralAnswersSO.AnswerText.Count)];
+                CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Neutral();
                 break;
             }
             else if (GameManager.Instance.RequestSO.Requests[RequestIndex].NegativeGifts.Count > i&& GameManager.Instance.RequestSO.Requests[RequestIndex].NegativeGifts[i].name == CustomerStateMachine.Instance.GaveGift.name)
             {
                 answerText = GameManager.Instance.NegativeAnswersSO.AnswerText[Random.Range(0, GameManager.Instance.NegativeAnswersSO.AnswerText.Count)];
+                CustomerStateMachine.Instance.CustomerGameObject.GetComponentInChildren<ControlFace>().Sad();
                 break;
             }
             else
@@ -43,6 +53,8 @@ public class CustomerReactionState : IStateCommand
             }
         }
     }
+
+    
 
     public override void Tick()
     {

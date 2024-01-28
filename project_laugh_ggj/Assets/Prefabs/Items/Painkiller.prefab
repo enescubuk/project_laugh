@@ -89,3 +89,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropZone: {fileID: 0}
+  ClickSound: {fileID: 8300000, guid: 621775e616793644c9d916b39cc86a72, type: 3}
