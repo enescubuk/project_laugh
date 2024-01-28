@@ -33,6 +33,10 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        if (GameObject.FindWithTag("MoneyText").GetComponent<TMP_Text>() != null)
+        {
+            MoneyText = GameObject.FindWithTag("MoneyText").GetComponent<TMP_Text>();
+        }
         AddMoney(0);
     }
 
