@@ -6,7 +6,7 @@ public class MasterVolume : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log(31);
+        
     }
 
     public void ChangeVol(float newValue)
