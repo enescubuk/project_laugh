@@ -11,9 +11,6 @@ public class CustomerGenerateState : IStateCommand
         CustomerStateMachine.Instance.CustomerGameObject = Instantiate(CustomerPrefab, SpawnPoint.position, Quaternion.identity,transform);
         CustomerStateMachine.Instance.IsCustomerSellable = false;
     }
-
-    
-
     public override void Tick()
     {
         Exit();

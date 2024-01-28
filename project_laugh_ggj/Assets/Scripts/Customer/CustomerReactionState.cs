@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using DG.Tweening;
 public class CustomerReactionState : IStateCommand
 {
     private GameObject speechBallonn;
@@ -11,7 +12,6 @@ public class CustomerReactionState : IStateCommand
     public AudioClip[] NeutralSounds;
     public AudioClip[] SadSounds;
 
-    
     public override void Enter()
     {
         speechBallonn = GetComponent<CustomerTalkingState>().SpeechBallonn;
@@ -22,7 +22,6 @@ public class CustomerReactionState : IStateCommand
         speechBallonn.GetComponentInChildren<TMP_Text>().text = answerText;
         Invoke("Exit", ReactionDuration);
     }
-
     private void CheckGiftQualityAndGiveAnswers()
     {
         int maxListLength = Mathf.Max(GameManager.Instance.RequestSO.Requests[RequestIndex].PositiveGifts.Count,GameManager.Instance.RequestSO.Requests[RequestIndex].NegativeGifts.Count,GameManager.Instance.RequestSO.Requests[RequestIndex].NeutralGifts.Count);

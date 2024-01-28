@@ -14,12 +14,6 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public RectTransform dropZone;
 
     public AudioClip ClickSound;
-    public GameObject GiftBoxTop;
-    public GameObject GiftBoxBottom;
-
-    public Vector2 aPos;
-    public Vector2 bPos;
-    public Vector2 cPos;
     
 
 
@@ -63,21 +57,9 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
             gameObject.SetActive(false);
             GetComponentInParent<AudioSource>().Play();
             CustomerStateMachine.Instance.ChangeState<CustomerReactionState>();
-            //GiftBoxAnim();
         }
         rectTransform.DOAnchorPos(originalPosition, 0.5f);
     }
 
-    private void GiftBoxAnim()
-    {
-        Sequence mySequence = DOTween.Sequence();
-        mySequence.Append(GiftBoxTop.transform.DOMove(bPos, 1.0f));
-        mySequence.Append(GiftBoxTop.transform.DOMove(cPos, 0.5f).SetEase(Ease.OutElastic)); 
-        mySequence.Play();
-    }
-
-    private void GiftPosReset()
-    {
-        GiftBoxTop.transform.DOMove(aPos, 1f).SetEase(Ease.InOutElastic);
-    }
+    
 }
