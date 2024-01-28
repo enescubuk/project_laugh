@@ -50,6 +50,9 @@ MonoBehaviour:
   PositiveAnswersSO: {fileID: 11400000, guid: df1fc908bd5d8b34caa6f81b958b255d, type: 2}
   NeutralAnswersSO: {fileID: 11400000, guid: 34797653bf5fbc343a1af18e481bf57d, type: 2}
   NegativeAnswersSO: {fileID: 11400000, guid: cbe40b48fba64724fac7f4ae6d43b52f, type: 2}
+  Money: 0
+  MoneyText: {fileID: 0}
+  Day: 0
 --- !u!82 &7825083660252222574
 AudioSource:
   m_ObjectHideFlags: 0
@@ -62,7 +65,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: eab004d5521f1954d93ff3bd17fec644, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
